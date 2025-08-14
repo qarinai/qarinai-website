@@ -12,7 +12,10 @@ const Installation = () => {
 //   -v qarin-data:/app/data \\
 //   qarinai/qarinai:latest`;
   const dockerCommand = `# Quick start with Docker Compose
-[command will be available soon]`;
+mkdir qarinai && cd qarinai
+curl -O https://raw.githubusercontent.com/qarinai/qarinai/refs/heads/main/docker-compose.yml
+docker compose -f docker-compose.yml up -d
+`;
 
   const kubernetesCommand = `# Deploy with Kubernetes
 kubectl apply -f https://raw.githubusercontent.com/qarinai/qarinai/main/deploy/kubernetes.yaml`;
