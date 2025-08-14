@@ -27,7 +27,7 @@ const Footer = () => {
 
           <div className="flex items-center space-x-6">
             <p className="text-gray-400 text-sm">
-              © 2025 Qarīn.ai. Open source under Apache 2.0 License.
+              © 2025 Qarīn.ai - Developed with ❤️ by <a href="https://sayedmahmoud266.website" target="_blank">Sayed Mahmoud Sayed</a>
             </p>
             <a
               href="https://github.com/qarinai/qarinai"
